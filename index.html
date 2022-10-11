@@ -23,7 +23,6 @@
     <title>Testimonial-API</title>
   </head>
   <body>
-    <div class="containers">
       <div class="container big-container">
         <div class="card small-container">
           <div class="item testimonial">
@@ -63,17 +62,16 @@
             <p><i class="fa-solid fa-location-dot location"></i></p>
           </div>
           <button class="btn btn-success audio" id="audio">Listen to audio</button>
+          <div class="buttons d-flex-sm gap-3">
+            <button class="btn btn-success text-light p-3 previous" id="previous">
+              Previous
+            </button>
+            <button class="btn btn-success text-light p-3 next" id="next">
+              Next
+            </button>
+          </div>
         </div>
       </div>
-      <div class="buttons">
-        <button class="btn btn-success text-light p-3 previous" id="previous">
-          Previous
-        </button>
-        <button class="btn btn-success text-light p-3 next" id="next">
-          Next
-        </button>
-      </div>
-    </div>
   </body>
   <script src="./testimonial.js"></script>
   <!-- JavaScript Bundle with Popper -->

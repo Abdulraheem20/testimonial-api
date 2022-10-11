@@ -25,13 +25,14 @@
  .buttons{
     display:flex;
     justify-content: space-between;
-    margin: 0 50px 10px 50px;
-}
-.containers{
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    padding-bottom: 20px;
+    margin: 20px 50px;
 }
 .audio{
     width: 100%;
+}
+.next, .previous{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    padding: 20px;
+    font-size: large;
 }
