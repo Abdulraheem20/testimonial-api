@@ -19,7 +19,7 @@ fetch(url)
             src="${testimonials[index].avatar}"
             alt="display-pics"
             class="display-pics"
-          />
+          /> <br>
           <div class="name">
             <span class="bold name">${testimonials[index].name}</span> <br>
             <span class="opacity50 designation">${testimonials[index].designation}</span>
