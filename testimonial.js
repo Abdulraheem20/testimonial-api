@@ -72,8 +72,8 @@ fetch(url)
     });
     audio.addEventListener("click", (e) => {
       e.preventDefault();
-      audio = new Audio(`${testimonials[index].audio}`)
+      audio = new Audio(`${testimonials[index].audio}`);
       audio.play();
-      console.log(`${testimonials[index].id} gh`);
+      console.log(`${testimonials[index].id}`);
     });
   });

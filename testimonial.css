@@ -1,38 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    padding: 20px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  padding: 20px;
 }
-.small-container{
-    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
-    padding: 10px;
-    margin: 10px;
+.small-container {
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  margin: 10px;
 }
-.display-pics{
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;
+.display-pics {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
 }
- .buttons{
-    display:flex;
-    justify-content: space-between;
-    margin: 20px 50px;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
 }
-.audio{
-    width: 100%;
+.audio {
+  width: 100%;
 }
-.next, .previous{
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
-    padding: 20px;
-    font-size: large;
+.next,
+.previous {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  padding: 20px;
+  font-size: large;
 }
